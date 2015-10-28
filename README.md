@@ -81,6 +81,49 @@ greeting("Steven", "Elixir")
   => Hello Steven. We heard you are a great Elixir programmer.
 ```
 
+## Using Default Argument and Required Arguments
+
+It is possible to define a method that takes in both required and default arguments. To do so, however, we must place the default argument at the end of the argument list in the method definition. 
+
+Take a look:
+
+```ruby
+def greeting(name, language="Ruby")
+  puts "Hello, #{name}. We heard you are a great #{language} programmer."
+end
+```
+
+Let's call our `#greeting` method with and without an explicit `language` argument:
+
+```ruby
+greeting("Sophie", "Ember.js")
+  => Hello, Sophie. We heard you are a great Ember.js programmer. 
+
+greeting("Dan")
+  => Hello, Dan. We heard you are a great Ruby programmer.
+```
+
+It works! Why must we place the default argument at the end of the argument list?
+
+Let's take a look at what would happen if we didn't:
+
+```ruby
+def greeting(language="Ruby", name)
+  puts "Hello, #{name}. We heard you are a great #{language} programmer."
+end
+```
+
+Now, what happens when we try to call our method without an explicit `language` argument?
+
+```ruby
+greeting("Sophie")
+```
+You might expect it to break. Or you might expect it think that the `language` variable is being set equal to `"Sophie"` in this method call. 
+
+Neither of those things will happen. The method will work as we intended because Ruby is smart and has a few tricks up it's sleve to help determine what method arguments are being used where in a method's body. 
+
+However, defining the default argument first is confusing. We can understand this from our very reasonable expectations that the above method invocation would break. For this reason, it is conventional to place any default arguments at the end of an argument list when defining a method that takes in both required and default arguments. 
+
 ## Conclusion
 
 Method arguments, both required and optional, make methods powerfully abstract and dynamic machines that are easy to build yet very flexible and adaptable to different situations and requirements. Get used to defining methods with required and default arguments and calling them correctly.
