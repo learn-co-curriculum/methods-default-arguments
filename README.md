@@ -49,11 +49,11 @@ If the method is invoked without any arguments, i.e. like this: `greeting`, Ruby
 However, if the method is invoked with an argument, `greeting("Sophie")`, Ruby will assign the variable `name` to the string `"Sophie"` inside the method. 
 
 ```ruby
-greet
-  => Hello, Ruby programmer!
+greeting
+# > Hello, Ruby programmer!
 
-greet("Sophie")
-  => "Hello, Sophie!"
+greeting("Sophie")
+# > "Hello, Sophie!"
 ```
 
 With default arguments our once simple machine becomes profoundly useful and abstract:
@@ -63,8 +63,8 @@ With default arguments our once simple machine becomes profoundly useful and abs
 Default arguments are easy to add, you simply assign them a default value with `=` ("equals") in the argument list. There's no limit to the amount of arguments that you can make default.
 
 ```ruby
-def greeting_programmer(name="Ruby programmer", language="Ruby")
-	puts "Hello, #{name}. We heard you are a great #{language} programmer."
+def greeting(name="Ruby programmer", language="Ruby")
+  puts "Hello, #{name}. We heard you are a great #{language} programmer."
 end
 ```
 
@@ -72,13 +72,13 @@ Let's take a look at the different ways we can call this method:
 
 ```ruby
 greeting
-  => Hello, Ruby programmer. We heard you are a great Ruby programmer. 
+# > Hello, Ruby programmer. We heard you are a great Ruby programmer. 
 
 greeting("Sophie")
-  => Hello, Sophie. We heard you are a great Ruby programmer. 
+# > Hello, Sophie. We heard you are a great Ruby programmer. 
 
 greeting("Steven", "Elixir")
-  => Hello Steven. We heard you are a great Elixir programmer.
+# > Hello Steven. We heard you are a great Elixir programmer.
 ```
 
 ## Using Default Argument and Required Arguments
@@ -97,10 +97,10 @@ Let's call our `#greeting` method with and without an explicit `language` argume
 
 ```ruby
 greeting("Sophie", "Ember.js")
-  => Hello, Sophie. We heard you are a great Ember.js programmer. 
+# > Hello, Sophie. We heard you are a great Ember.js programmer. 
 
 greeting("Dan")
-  => Hello, Dan. We heard you are a great Ruby programmer.
+# > Hello, Dan. We heard you are a great Ruby programmer.
 ```
 
 It works! Why must we place the default argument at the end of the argument list?
