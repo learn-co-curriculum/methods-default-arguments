@@ -1,5 +1,9 @@
 # Methods with Default Arguments
 
+## Overview
+
+We'll introduce methods that take in optional arguments and cover why they're important to programming. 
+
 ## Objectives
 
 1. Define a method to take in optional arguments by assigning a default value. 
