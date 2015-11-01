@@ -2,10 +2,9 @@
 
 ## Objectives
 
-1. Define options arguments. 
-2. Understand when and why to use them. 
-3. Learn how to define a method to take in optional arguments. 
-4. Call a method with and without it's optional arguments. 
+1. Define a method to take in optional arguments by assigning a default value. 
+2. Call a method with and without its optional arguments. 
+3. Define a method that take in both required and optional arguments.
 
 ## Why Optional Arguments?
 
@@ -19,7 +18,7 @@ def greeting
 end
 ```
 
-We have to re-define or re-write that method every time we'd like to use it greet someone else. That is way to much work for us. Instead, we'll define our method to take in an *argument* of someone's name:
+We have to re-define or re-write that method every time we'd like to use it to greet someone else who might not be a Ruby programmer. Since that's way too much work for us,  we'll define our method to take in an *argument* of someone's name:
 
 ```ruby
 def greeting(name)
@@ -29,7 +28,7 @@ end
 
 Now our method is flexible and dynamic, it can be used again and again to greet different people. 
 
-But what if we don't know the name of the person we are trying to greet? We can make this method even more flexible by making the `name` argument optional. How do we do this? With optional, or default, arguments. 
+But what if we don't know the name of the person we are trying to greet? We can make this method even more flexible by making the `name` argument optional. We do this by using optional, or default, arguments. 
 
 ## Default Arguments
 
