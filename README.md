@@ -36,7 +36,7 @@ But what if we don't know the name of the person we are trying to greet? We can 
 
 ## Default Arguments
 
-In order to define a method that optionally takes in an argument, we define our method to take in an argument with a **default value**. By defining out method with default arguments, we make it possible to call the method with optional arguments, i.e. with or without arguments. 
+In order to define a method that optionally takes in an argument, we define our method to take in an argument with a **default value**. By defining our method with default arguments, we make it possible to call the method with optional arguments, i.e. with or without arguments. 
 
 ```ruby
 #             assigning a default value
