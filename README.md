@@ -8,7 +8,7 @@ We'll introduce methods that take in optional arguments and cover why they're im
 
 1. Define a method to take in optional arguments by assigning a default value. 
 2. Call a method with and without its optional arguments. 
-3. Define a method that take in both required and optional arguments.
+3. Define a method that takes in both required and optional arguments.
 
 ## Why Optional Arguments?
 
@@ -36,7 +36,7 @@ But what if we don't know the name of the person we are trying to greet? We can 
 
 ## Default Arguments
 
-In order to define a method that optionally takes in an argument, we define our method to take in an argument with a **default value**. By defining out method with default arguments, we make it possible to call the method with optional arguments, i.e. with or without arguments. 
+In order to define a method that optionally takes in an argument, we define our method to take in an argument with a **default value**. By defining our method with default arguments, we make it possible to call the method with optional arguments, i.e. with or without arguments. 
 
 ```ruby
 #             assigning a default value
@@ -59,7 +59,7 @@ greeting("Sophie")
 # > "Hello, Sophie!"
 ```
 
-With default arguments our once simple machine becomes profoundly useful and abstract:
+With default arguments, our once simple machine becomes profoundly useful and abstract:
 
 ## Adding Default Arguments
 
