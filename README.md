@@ -123,7 +123,7 @@ greeting("Sophie")
 ```
 You might expect it to break. Or you might expect it think that the `language` variable is being set equal to `"Sophie"` in this method call. 
 
-Neither of those things will happen. The method will work as we intended because Ruby is smart and has a few tricks up it's sleeve to help determine what method arguments are being used where in a method's body. 
+Neither of those things will happen. The method will work as we intended because Ruby is smart and has a few tricks up its sleeve to help determine what method arguments are being used where in a method's body. 
 
 However, defining the default argument first is confusing. We can understand this from our very reasonable expectations that the above method invocation would break. For this reason, it is conventional to place any default arguments at the end of an argument list when defining a method that takes in both required and default arguments. 
 
