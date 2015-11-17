@@ -10,6 +10,9 @@ We'll introduce methods that take in optional arguments and cover why they're im
 2. Call a method with and without its optional arguments. 
 3. Define a method that takes in both required and optional arguments.
 
+## Video
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BymDzQ9yIs8?rel=0&modestbranding=1" frameborder="0" allowfullscreen></iframe><p><a href="https://www.youtube.com/watch?v=BymDzQ9yIs8">Ruby Method Default Arguments</a></p>
+
 ## Why Optional Arguments?
 
 We should constantly strive for our code to be dynamic and flexible. As programmers, we are lazy (which is a virtue). Consequently, we want the code we write to be re-usable. 
