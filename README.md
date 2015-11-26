@@ -62,7 +62,7 @@ greeting("Sophie")
 # > "Hello, Sophie!"
 ```
 
-With default arguments, our once simple machine becomes profoundly useful and abstract:
+With default arguments, our once simple machine becomes profoundly useful and abstract.
 
 ## Adding Default Arguments
 
