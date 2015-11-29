@@ -66,7 +66,7 @@ With default arguments, our once simple machine becomes profoundly useful and ab
 
 ## Adding Default Arguments
 
-Default arguments are easy to add, you simply assign them a default value with `=` ("equals") in the argument list. There's no limit to the amount of arguments that you can make default.
+Default arguments are easy to add, you simply assign them a default value with `=` ("equals") in the argument list. There's no limit to the number of arguments that you can make default.
 
 ```ruby
 def greeting(name="Ruby programmer", language="Ruby")
