@@ -124,7 +124,7 @@ Now, what happens when we try to call our method without an explicit `language` 
 ```ruby
 greeting("Sophie")
 ```
-You might expect it to break. Or you might expect it think that the `language` variable is being set equal to `"Sophie"` in this method call. 
+You might expect it to break. Or you might expect it to think that the `language` variable is being set equal to `"Sophie"` in this method call. 
 
 Neither of those things will happen. The method will work as we intended because Ruby is smart and has a few tricks up its sleeve to help determine what method arguments are being used where in a method's body. 
 
@@ -133,5 +133,3 @@ However, defining the default argument first is confusing. We can understand thi
 ## Conclusion
 
 Method arguments, both required and optional, make methods powerfully abstract and dynamic machines that are easy to build yet very flexible and adaptable to different situations and requirements. Get used to defining methods with required and default arguments and calling them correctly.
-
-<a href='https://learn.co/lessons/methods-default-arguments' data-visibility='hidden'>View this lesson on Learn.co</a>
