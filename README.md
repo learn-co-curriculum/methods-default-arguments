@@ -135,5 +135,3 @@ However, defining the default argument first is confusing. We can understand thi
 Method arguments, both required and optional, make methods powerfully abstract and dynamic machines that are easy to build yet very flexible and adaptable to different situations and requirements. Get used to defining methods with required and default arguments and calling them correctly.
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/methods-default-arguments' title='Methods with Default Arguments'>Methods with Default Arguments</a> on Learn.co and start learning to code for free.</p>
-
-<p class='util--hide'>View <a href='https://learn.co/lessons/methods-default-arguments'>Default Arguments</a> on Learn.co and start learning to code for free.</p>
