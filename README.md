@@ -84,7 +84,7 @@ greeting("Sophie")
 # > Hello, Sophie. We heard you are a great Ruby programmer. 
 
 greeting("Steven", "Elixir")
-# > Hello Steven. We heard you are a great Elixir programmer.
+# > Hello, Steven. We heard you are a great Elixir programmer.
 ```
 
 ## Using Default Argument and Required Arguments
