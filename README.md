@@ -33,7 +33,7 @@ def greeting(name)
 end
 ```
 
-Now our method is flexible and dynamic, it can be used again and again to greet different people. 
+Now our method is flexible and dynamic. It can be used again and again to greet different people. 
 
 But what if we don't know the name of the person we are trying to greet? We can make this method even more flexible by making the `name` argument optional. We do this by using optional, or default, arguments. 
 
